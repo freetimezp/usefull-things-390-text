@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -8,4 +10,24 @@
 
 a {
     text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1;
+    background: url(../images/bg.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    overflow: hidden;
 }
